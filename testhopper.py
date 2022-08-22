@@ -24,7 +24,7 @@ HH = HopperHelper()
 
 sFilter = "MachineName='TKDDEVMOHSIN'"
 sDate = datetime(2022,8,10)
-eDate = datetime(2022,8,22)
+eDate = datetime(2022,8,25)
 
 # COMMAND ----------
 
