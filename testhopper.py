@@ -23,8 +23,8 @@ HH = HopperHelper()
 # COMMAND ----------
 
 sFilter = "MachineName='TKDDEVMOHSIN'"
-sDate = datetime(2022,7,19)
-eDate = datetime(2022,7,22, 22, 0, 0)
+sDate = datetime(2022,8,10)
+eDate = datetime(2022,8,22)
 
 # COMMAND ----------
 
@@ -38,7 +38,6 @@ rawCount = dfRawEvents.count()
 inputRecordCount = dfEventsFiltered.count()
 print("Raw Counts: " + "{:,}".format(rawCount))
 print("Counts: " + "{:,}".format(inputRecordCount))
-
 
 # COMMAND ----------
 
